@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*  __________________________________________________________________________
+    
+    Medidas absolutas são: 
+    - cm (centimetro) 
+    - mm (milimetro)
+    - in (polegada)
+    - px (pixel) 
+    - pt (ponto / não recomendado em material empresso em tela)
+    - pc (paica / não recomendado em material empresso em tela)
+    
+    __________________________________________________________________________
+
+    Medidas Relativas são:
+    - em (temanho relativo ao tamanho atual da fonte)
+    - ex (relativo a altura x da fonte)
+    - rem (tipo o em mas é relativo ao root que é a fonte que está configurada no body)
+    - vw (Largura da viewport ou tamanho da largura em porcentagem da tela )
+    - vh (É a altura da viewport)  
+    - % (porcentagem da tela)
+
+    __________________________________________________________________________
+
+    16px geralmente = 1em
+
+    em é o dobro de px ou seja
+    1em equivale a 16px
+    2 em equivale a 32px
+    ou seja o dobro de pixels
+
+
+    As medidas recomendadas pelo W3Cschool são PX e EM
+    */
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+h1 {
+    
+    /* shorthand font
+       Ordem do shorthand(mãozinha amiga), em vez de usar a seguinte linha:
+
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       font-size: 3em;
+       font-style: italic;
+
+        Use a seguinte linha nessa ordem:
+
+       - font-style -> font-weigth -> font-size font-family 
+    */
+    font: italic bolder 3em  Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font: bold 2em Arial, Helvetica, sans-serif;
+}

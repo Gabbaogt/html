@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+h1 {
+   background-color: lightgray;
+   height: 300px;
+   width: 300px;
+   border: 10px solid black;
+   padding: 10px 10px 10px 10px;
+   margin: 20px 20px 40px 20px;
+   outline: 5px dashed salmon;/* É uma linha que passa por dentro da margem */
+
+}
+
+
+a {
+    border: 10px solid red;
+    padding: 10px 10px 10px 10px;
+}
