@@ -1,0 +1,11 @@
+@charset "UFT-08";
+
+table {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+}
