@@ -1,0 +1,27 @@
+@charset "UTF-08";
+
+table {
+    width: 700px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    background-color: darkgrey;
+    color: white;
+}
+
+.materia {
+    text-align: left;
+}
+
+.tipos {
+    background-color: white;
+    color: black;
+}
